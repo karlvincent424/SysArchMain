@@ -1,5 +1,5 @@
 :root {
-    --cit-maroon: #800000;
+    --cit-blue: #0056b3;
     --cit-gold: #0066cc;
 }
 
@@ -58,7 +58,7 @@
 .auth-form input:focus,
 .auth-form select:focus {
     outline: none;
-    border-color: var(--cit-maroon);
+    border-color: var(--cit-blue);
     box-shadow: 0 0 5px rgba(0, 102, 204, 0.2);
 }
 
@@ -111,7 +111,7 @@
 .btn-login {
     width: 100%;
     padding: 12px;
-    background: var(--cit-maroon);
+    background: var(--cit-blue);
     color: white;
     border: none;
     border-radius: 6px;
@@ -123,7 +123,7 @@
 }
 
 .btn-login:hover {
-    background: #600000;
+    background: #003d82;
 }
 
 .auth-switch {
@@ -136,7 +136,7 @@
 .btn-link {
     background: none;
     border: none;
-    color: var(--cit-maroon);
+    color: var(--cit-blue);
     cursor: pointer;
     text-decoration: underline;
     font-weight: 600;
@@ -145,7 +145,7 @@
 }
 
 .btn-link:hover {
-    color: #600000;
+    color: #003d82;
 }
 
 #auth-container {
@@ -153,7 +153,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, var(--cit-maroon) 0%, #600000 100%);
+    background: linear-gradient(135deg, var(--cit-blue) 0%, #003d82 100%);
     font-family: 'Segoe UI', sans-serif;
 }
 
@@ -175,7 +175,7 @@
 
 body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color: black; }
 
-.navbar { background: var(--cit-maroon); color: white; padding: 1rem; display: flex; justify-content: space-between; }
+.navbar { background: var(--cit-blue); color: white; padding: 1rem; display: flex; justify-content: space-between; }
 
 .navbar .nav-links {
     display: flex;
@@ -297,7 +297,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
 }
 
 .history-table th {
-    background: var(--cit-maroon);
+    background: var(--cit-blue);
     color: white;
     padding: 12px;
     text-align: left;
@@ -365,8 +365,8 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
 }
 
 .admin-tab-btn.active {
-    border-bottom-color: var(--cit-maroon);
-    color: var(--cit-maroon);
+    border-bottom-color: var(--cit-blue);
+    color: var(--cit-blue);
 }
 
 .admin-tab-content {
@@ -390,7 +390,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-left: 5px solid var(--cit-maroon);
+    border-left: 5px solid var(--cit-blue);
 }
 
 .stat-card h3 {
@@ -464,7 +464,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
 }
 
 .admin-table th {
-    background: var(--cit-maroon);
+    background: var(--cit-blue);
     color: white;
     padding: 15px;
     text-align: left;
@@ -555,7 +555,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
 
 .sitin-search-section input:focus {
     outline: none;
-    border-color: var(--cit-maroon);
+    border-color: var(--cit-blue);
     box-shadow: 0 0 8px rgba(128, 0, 0, 0.1);
 }
 
@@ -596,7 +596,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     padding: 25px;
-    border-left: 5px solid var(--cit-maroon);
+    border-left: 5px solid var(--cit-blue);
 }
 
 .alert-active {
@@ -634,7 +634,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
 
 .info-value {
     font-size: 16px;
-    color: var(--cit-maroon);
+    color: var(--cit-blue);
     font-weight: 600;
 }
 
@@ -669,7 +669,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
 
 .session-purpose {
     font-weight: 600;
-    color: var(--cit-maroon);
+    color: var(--cit-blue);
 }
 
 .session-lab {
@@ -749,7 +749,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; background: white; color:
     background: white;
     padding: 15px;
     border-radius: 8px;
-    border-left: 4px solid var(--cit-maroon);
+    border-left: 4px solid var(--cit-blue);
     margin-bottom: 12px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     transition: all 0.3s ease;
@@ -847,7 +847,7 @@ input:checked + .slider:before {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--cit-maroon);
+    border: 4px solid var(--cit-blue);
     margin-bottom: 15px;
 }
 
@@ -889,7 +889,7 @@ input:checked + .slider:before {
 }
 
 .history-table-detailed th {
-    background: var(--cit-maroon);
+    background: var(--cit-blue);
     color: white;
     padding: 10px;
     text-align: left;
@@ -1021,7 +1021,7 @@ input:checked + .slider:before {
     border-radius: 50%;
     overflow: hidden;
     background: #f0f0f0;
-    border: 3px solid var(--cit-maroon);
+    border: 3px solid var(--cit-blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1043,7 +1043,7 @@ input:checked + .slider:before {
 
 .profile-info-header h3 {
     margin: 0;
-    color: var(--cit-maroon);
+    color: var(--cit-blue);
     font-size: 1.3em;
 }
 
@@ -1074,7 +1074,7 @@ input:checked + .slider:before {
 
 .detail-section h4 {
     margin: 0 0 15px 0;
-    color: var(--cit-maroon);
+    color: var(--cit-blue);
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1105,7 +1105,7 @@ input:checked + .slider:before {
 /* Photo Upload Styles */
 .photo-upload-area {
     background: #f9f9f9;
-    border: 2px dashed var(--cit-maroon);
+    border: 2px dashed var(--cit-blue);
     border-radius: 8px;
     padding: 20px;
     text-align: center;
@@ -1147,7 +1147,7 @@ input:checked + .slider:before {
 
 .profile-edit-section h4 {
     margin: 0 0 15px 0;
-    color: var(--cit-maroon);
+    color: var(--cit-blue);
     font-size: 1.05em;
     font-weight: 600;
 }
@@ -1367,7 +1367,7 @@ input:checked + .slider:before {
     padding: 10px;
     border-radius: 4px;
     font-style: italic;
-    border-left: 3px solid var(--cit-maroon);
+    border-left: 3px solid var(--cit-blue);
 }
 
 .no-feedback {
